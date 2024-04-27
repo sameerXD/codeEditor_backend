@@ -14,6 +14,7 @@ const app = express();
 
 const originArr: string[] = [
   "http://localhost:3000",
+  "https://code-editor-sameer.netlify.app"
 ];
 
 
