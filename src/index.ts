@@ -29,7 +29,7 @@ const server = http.createServer(app);
 initSocket(server);
 
 // connect to mongodb
-connectDB();
+// connectDB();
 // parse incoming json and attach it to req.body
 app.use(express.json());
 
